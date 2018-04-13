@@ -41,6 +41,9 @@ With the provided library interface you can compute
 ## Implemented routines
 
 ### Bessel functions of first and second kind
+![Bessel function of first kind](https://github.com/DL6ER/complex_bessel/blob/master/img/bessel-1.svg)
+
+![Bessel function of second kind](https://github.com/DL6ER/complex_bessel/blob/master/img/bessel-2.svg)
 ```c
 double complex bessel(double order, int kind, double complex z);
 double complex besselJ(double order, double complex z);
@@ -49,6 +52,7 @@ double complex besselY(double order, double complex z);
 These routines compute the Bessel functions for any given order. `besselJ` (first kind) and `besselY` (second kind) are provided as short handles for the more generic `bessel` function.
 
 ### Hankel functions of first and second kind
+![Hankel functions of first and second kind](https://github.com/DL6ER/complex_bessel/blob/master/img/hankel.svg)
 ```c
 double complex hankel(double order, int kind, double complex z);
 double complex hankelH1(double order, double complex z);
