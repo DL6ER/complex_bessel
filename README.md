@@ -60,7 +60,7 @@ double complex hankelH2(double order, double complex z);
 ```
 These routines compute the Hankel functions for any given order. `hankelH1` (first kind) and `hankelH2` (second kind) are provided as short handles for the more generic `hankel` function.
 
-### Derivation functions
+### Derivative functions
 ```c
 double complex besselDiff(double order, int kind, int n, double complex z);
 double complex besselJdiff(double order, int n, double complex z);
@@ -74,3 +74,4 @@ These routines compute the n-th derivative of the Bessel/Hankel functions for an
 ## License
 This project is copyrighted under the latest version of the European Union Public License (EUPL).
 Please see `LICENSE` file for your rights under this license.
+The code in subfolder `complex_bessel` is licensed under LGPL-3.0 (see also `LICENSE` file therein).
